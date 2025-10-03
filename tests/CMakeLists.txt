@@ -1,0 +1,2 @@
+add_library(test_basic OBJECT test)
+target_include_directories(test_basic PRIVATE ${CMAKE_SOURCE_DIR}/include)
