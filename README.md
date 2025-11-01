@@ -22,5 +22,5 @@ static_assert(state_full_counter::Counter() == 2);
 
 // Independent counter #1  
 static_assert(state_full_counter::Counter<1>() == 0);
-```
 static_assert(state_full_counter::Counter<1>() == 1);
+```
